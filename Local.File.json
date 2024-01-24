@@ -1,0 +1,13 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "myConnectionStringCopiedFromAzurePortal",
+        "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+        "websiteUrl": "https://site-fmlcn.powerappsportals.com/SignIn",
+        "siginEmailid": "dynamicsportal@italentdigital.com",
+        "SigInPassword": "p)O9i8u7y6",
+        "PortalUrl": "https://site-fmlcn.powerappsportals.com",
+        "ThreadSleep": 3000
+    }
+}
