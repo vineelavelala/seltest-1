@@ -121,6 +121,7 @@ namespace seltest_1
         }
         public void SubjectKeys()
         {
+
             driver.FindElement(By.Id("fc_subject")).SendKeys("Test subject");
         }
         public void BodyKeys()
@@ -128,7 +129,8 @@ namespace seltest_1
             Thread.Sleep(15000);
             driver.SwitchTo().Frame(0);
             driver.SwitchTo().Frame(0);
-            IWebElement elementInsideIframe = driver.FindElement(By.XPath("//body[@class='cke_editable']"));
+            //IWebElement elementInsideIframe = driver.FindElement(By.XPath("//body[@class='cke_editable ']"));
+            IWebElement elementInsideIframe = driver.FindElement(By.XPath("//body[@class='cke_editable cke_editable_themed cke_contents_ltr']"));
             elementInsideIframe.Click();
             elementInsideIframe.SendKeys("This data is for testing purpose");
             Thread.Sleep(5000);
